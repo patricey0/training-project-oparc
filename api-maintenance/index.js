@@ -8,6 +8,10 @@ const app = express();
 
 const port = process.env.PORT || 5000;
 
+app.set('view engine', 'pug');
+app.set('views', './app/integration/views');
+app.use(express.static('./app/integration/'));
+
 app.use('/v1', router);
 
 app.listen(port, () => {
