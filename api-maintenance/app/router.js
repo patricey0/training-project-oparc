@@ -4,6 +4,6 @@ const maintenanceController = require('./controllers/maintenanceController');
 
 const router = Router();
 
-router.get('/', maintenanceController.findAll);
+router.get('/', maintenanceController.incidentsPage);
 
 module.exports = router;

@@ -1,7 +1,7 @@
 const Incident = require(`../models/incident`);
 
 module.exports = {
-    findAll: async (_, response) => {
+    incidentsPage: async (_, response) => {
 
         try {
             const incidents = await Incident.findAll();
