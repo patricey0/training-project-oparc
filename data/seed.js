@@ -3,11 +3,15 @@ faker.locale = 'fr';
 
 const users = [];
 
-for (let i=0; i<5e5; i++) {
+for (let i=0; i<10; i++) {
     users.push(
+
+        
         {
-            fullName: faker.name.findName(),
-            email: faker.internet.email(),
-            age: faker.datatype.number(100)
+            public_name: faker.name.findName(),
+            capacity: faker.internet.email(),
+            open_time: faker.datatype.number(100),
+            close_time,
+            duration
         }
     );
