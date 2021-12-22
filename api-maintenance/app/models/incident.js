@@ -15,3 +15,5 @@ class Incident {
         return rows.map(row => new Incident(row));
     }
 }
+
+module.exports = Incident;
