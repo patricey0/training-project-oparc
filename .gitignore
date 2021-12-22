@@ -1,0 +1,6 @@
+git ignored
+api-reservation/node_modules
+api-maintenance/node_modules
+sqitch.conf
+api-maintenance/.env
+api-reservation/.env
